@@ -38,7 +38,7 @@ ui <- fillPage(
   ),
   
   column(6,
-         plotOutput("LabsBySubGroup", click = "plot_click"),
+         plotOutput("LabsBySubGroup", click = "plot_click", height = "250px"),
          tableOutput("renalTable")
   )
 )
